@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "rekados-desktop",
+    "productName": "Rekados",
     "version": "0.1.0"
   },
   "tauri": {
@@ -61,9 +61,11 @@
       {
         "fullscreen": false,
         "height": 600,
+        "minHeight": 600,
         "resizable": true,
-        "title": "rekados-desktop",
-        "width": 800
+        "title": "Rekados",
+        "width": 800,
+        "minWidth": 800
       }
     ]
   }
